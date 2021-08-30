@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body {
+  background: url(../images/pattern-background-desktop.svg);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  max-height: 100%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#image {
+  border-radius: 15px 15px 0 0;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 337px;
+}
+
+.content h1 {
+  font-weight: 900;
+  text-align: center;
+  color:hsl(223, 47%, 23%);
+}
+
+.content .plan p {
+  text-decoration: overline;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.content .buttons a {
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  width: 337px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.content .plan {
+  max-width: 95%;
+  max-height: 300px;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.content .buttons .proceed {
+  background-color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  color: white;
+}
+
+.content .buttons .cancel {
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+#note {
+  font-size: 28px; 
+  text-align: center; 
+  color: hsl(4, 45%, 44%); 
+}
